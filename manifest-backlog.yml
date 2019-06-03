@@ -6,7 +6,7 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: https://pal-tracker-distributed-manan-bhagat-backlog.apps.pcf.paltraining.perficient.com
+    REGISTRATION_SERVER_ENDPOINT: pal-tracker-distributed-manan-bhagat-registration.apps.pcf.paltraining.perficient.com
 
   services:
   - tracker-backlog-database
