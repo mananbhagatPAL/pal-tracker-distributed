@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.pivotal.pal.tracker.users.UserControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-03T13:59:24" hostname="PRFT-13864" time="0.02">
+  <properties/>
+  <testcase name="testShow" classname="test.pivotal.pal.tracker.users.UserControllerTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

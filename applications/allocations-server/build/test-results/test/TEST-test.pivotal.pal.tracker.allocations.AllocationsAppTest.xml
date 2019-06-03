@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.pivotal.pal.tracker.allocations.AllocationsAppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-03T13:58:49" hostname="PRFT-13864" time="5.171">
+  <properties/>
+  <testcase name="embedded" classname="test.pivotal.pal.tracker.allocations.AllocationsAppTest" time="5.171"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.6.RELEASE)
+
+2019-06-03 13:58:50.125  INFO 13816 --- [    Test worker] io.pivotal.pal.tracker.allocations.App   : Starting App on PRFT-13864 with PID 13816 (started by manan.bhagat in C:\WorkSpace\pal-tracker-distributed\applications\allocations-server)
+2019-06-03 13:58:50.130  INFO 13816 --- [    Test worker] io.pivotal.pal.tracker.allocations.App   : No active profile set, falling back to default profiles: default
+2019-06-03 13:58:50.201  INFO 13816 --- [    Test worker] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10f66b1e: startup date [Mon Jun 03 13:58:50 UTC 2019]; root of context hierarchy
+2019-06-03 13:58:52.126  INFO 13816 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2019-06-03 13:58:52.163  INFO 13816 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-03 13:58:52.163  INFO 13816 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-06-03 13:58:52.175  INFO 13816 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Cloud Foundry;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\jre1.8.0_211\bin;C:\Gradle\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;.]
+2019-06-03 13:58:52.307  INFO 13816 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-03 13:58:52.307  INFO 13816 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2111 ms
+2019-06-03 13:58:52.394  INFO 13816 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-06-03 13:58:52.398  INFO 13816 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-03 13:58:52.399  INFO 13816 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-03 13:58:52.399  INFO 13816 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-03 13:58:52.399  INFO 13816 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-03 13:58:52.873  INFO 13816 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-03 13:58:53.049  INFO 13816 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10f66b1e: startup date [Mon Jun 03 13:58:50 UTC 2019]; root of context hierarchy
+2019-06-03 13:58:53.176  INFO 13816 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/allocations],methods=[POST]}" onto public org.springframework.http.ResponseEntity<io.pivotal.pal.tracker.allocations.AllocationInfo> io.pivotal.pal.tracker.allocations.AllocationController.create(io.pivotal.pal.tracker.allocations.AllocationForm)
+2019-06-03 13:58:53.178  INFO 13816 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/allocations],methods=[GET]}" onto public java.util.List<io.pivotal.pal.tracker.allocations.AllocationInfo> io.pivotal.pal.tracker.allocations.AllocationController.list(long)
+2019-06-03 13:58:53.179  INFO 13816 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String io.pivotal.pal.tracker.restsupport.SpringDefaultController.defaultRoute()
+2019-06-03 13:58:53.182  INFO 13816 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-03 13:58:53.184  INFO 13816 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-03 13:58:53.229  INFO 13816 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-03 13:58:53.229  INFO 13816 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-03 13:58:53.854  INFO 13816 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-06-03 13:58:53.856  INFO 13816 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-03 13:58:53.861  INFO 13816 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-03 13:58:53.899  INFO 13816 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2019-06-03 13:58:53.906  INFO 13816 --- [    Test worker] io.pivotal.pal.tracker.allocations.App   : Started App in 4.28 seconds (JVM running for 5.453)
+2019-06-03 13:58:54.055  INFO 13816 --- [nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-03 13:58:54.055  INFO 13816 --- [nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-03 13:58:54.084  INFO 13816 --- [nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2019-06-03 13:58:54.144  INFO 13816 --- [nio-8181-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-03 13:58:54.148  WARN 13816 --- [nio-8181-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-06-03 13:58:54.322  INFO 13816 --- [nio-8181-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+]]></system-out>
+  <system-err><![CDATA[Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.pivotal.pal.tracker.backlog.StoryControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-03T13:59:19" hostname="PRFT-13864" time="0.047">
+  <properties/>
+  <testcase name="testFailedCreate" classname="test.pivotal.pal.tracker.backlog.StoryControllerTest" time="0.038"/>
+  <testcase name="testList" classname="test.pivotal.pal.tracker.backlog.StoryControllerTest" time="0.008"/>
+  <testcase name="testCreate" classname="test.pivotal.pal.tracker.backlog.StoryControllerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
