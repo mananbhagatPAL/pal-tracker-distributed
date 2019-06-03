@@ -140,6 +140,7 @@ jobs:
         - echo "Deploying timesheets server $RELEASE_TAG"
       deploy:
         <<: *cloudfoundry
+
     - stage: migrate
       language: java
       before_install:
