@@ -5,7 +5,7 @@ applications:
   - route: pal-tracker-distributed-manan-bhagat-timesheets.apps.pcf.paltraining.perficient.com
   memory: 1G
   instances: 1
-  env:
+
 
   services:
   - tracker-timesheets-database

@@ -5,7 +5,6 @@ applications:
   - route: pal-tracker-distributed-manan-bhagat-backlog.apps.pcf.paltraining.perficient.com
   memory: 1G
   instances: 1
-  env:
 
   services:
   - tracker-backlog-database
