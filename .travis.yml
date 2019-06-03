@@ -55,7 +55,6 @@ jobs:
         - git tag -f $RELEASE_TAG
       deploy:
         <<: *github
-
     - stage: build and publish
       language: java
       jdk: openjdk8
