@@ -10,9 +10,10 @@ import org.springframework.web.client.RestOperations;
 
 import java.util.TimeZone;
 
-@EnableEurekaClient
+
 @SpringBootApplication
 @ComponentScan({"io.pivotal.pal.tracker.allocations", "io.pivotal.pal.tracker.restsupport"})
+@EnableEurekaClient
 public class App {
 
     public static void main(String[] args) {
@@ -22,8 +23,8 @@ public class App {
 
     @Bean
     ProjectClient projectClient(
-        RestOperations restOperations,
-        @Value("${registration.server.endpoint}") String registrationEndpoint
+            RestOperations restOperations,
+            @Value("${registration.server.endpoint}") String registrationEndpoint
     ) {
         return new ProjectClient(restOperations, registrationEndpoint);
     }
