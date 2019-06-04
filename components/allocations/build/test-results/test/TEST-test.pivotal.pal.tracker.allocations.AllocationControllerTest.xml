@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.pivotal.pal.tracker.allocations.AllocationControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-03T13:59:16" hostname="PRFT-13864" time="0.126">
-  <properties/>
-  <testcase name="testList" classname="test.pivotal.pal.tracker.allocations.AllocationControllerTest" time="0.105"/>
-  <testcase name="testCreate" classname="test.pivotal.pal.tracker.allocations.AllocationControllerTest" time="0.019"/>
-  <testcase name="testCreate_WhenProjectIsNotActive" classname="test.pivotal.pal.tracker.allocations.AllocationControllerTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
